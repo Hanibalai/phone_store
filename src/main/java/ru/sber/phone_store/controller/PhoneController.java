@@ -6,6 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -54,14 +55,14 @@ public class PhoneController {
     }
 
     /**
-     * Получает список телефонов с учетом фильтра, переданного в теле запроса.
+     * Получает список телефонов с учетом фильтра, переданного как атрибут через запрос.
      *
      * @param filter Объект {@link PhoneFilterDto} с параметрами фильтрации телефонов.
      * @return Список объектов {@link PhoneDto} с информацией о телефонах, соответствующих фильтру.
      */
-    @PostMapping("/filter")
-    public List<PhoneDto> getAllByFilter(@RequestBody PhoneFilterDto filter) {
-        log.info("POST request: Get all phones with filter {}", filter);
+    @GetMapping("/filter")
+    public List<PhoneDto> getAllByFilter(@ModelAttribute PhoneFilterDto filter) {
+        log.info("GET request: Get all phones with filter {}", filter);
         return phoneService.getAllByFilter(filter);
     }
 

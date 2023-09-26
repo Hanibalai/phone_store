@@ -88,8 +88,8 @@ class PhoneFilterTest {
     void testApply_shouldFindOnePhone() {
         PhoneFilterDto filter = PhoneFilterDto.builder()
                 .brandId(1L)
-                .maxPrice(150.0)
-                .minPrice(250.0)
+                .maxPrice(250.0)
+                .minPrice(150.0)
                 .build();
 
         phoneFilters.stream()
