@@ -33,7 +33,7 @@ public class Phone {
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "brand_id")
+    @JoinColumn(name = "brand_id", nullable = false)
     private Brand brand;
 
     @Column(name = "model", nullable = false, length = 32)
@@ -44,9 +44,6 @@ public class Phone {
 
     @Column(name = "price", nullable = false)
     private double price;
-
-    @Column(name = "quantity", nullable = false)
-    private int quantity;
 
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)

@@ -26,8 +26,8 @@ public class Brand {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "brand", nullable = false, length = 32, unique = true)
-    private String brand;
+    @Column(name = "name", nullable = false, length = 32, unique = true)
+    private String name;
 
     @OneToMany(mappedBy = "brand")
     private List<Phone> phones;
