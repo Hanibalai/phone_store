@@ -1,5 +1,6 @@
 package ru.sber.phone_store.entity;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -15,7 +16,7 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 @Entity
-@Table(name = "brands")
+@Table(name = "brand")
 @Data
 @Builder
 @NoArgsConstructor
@@ -29,6 +30,6 @@ public class Brand {
     @Column(name = "name", nullable = false, length = 32, unique = true)
     private String name;
 
-    @OneToMany(mappedBy = "brand")
+    @OneToMany(mappedBy = "brand", cascade = CascadeType.ALL)
     private List<Phone> phones;
 }

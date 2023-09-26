@@ -19,6 +19,9 @@ public interface BrandMapper {
 
     @Named("toPhoneIds")
     default List<Long> toPhoneIds(List<Phone> phones) {
+        if (phones == null) {
+            return null;
+        }
         return phones.stream().map(Phone::getId).toList();
     }
 }

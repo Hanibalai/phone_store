@@ -59,4 +59,27 @@ class PhoneMapperTest {
         Phone actual = phoneMapper.toEntity(phoneDto);
         assertEquals(expected, actual);
     }
+
+    @Test
+    void testUpdate() {
+        PhoneDto phoneDtoToUpdate = PhoneDto.builder()
+                .model("new model")
+                .color("new color")
+                .price(10000.0)
+                .build();
+
+        phoneMapper.update(phone, phoneDtoToUpdate);
+
+        Phone expected = Phone.builder()
+                .id(1L)
+                .brand(Brand.builder().id(1L).build())
+                .model("new model")
+                .color("new color")
+                .price(10000.0)
+                .createdAt(phone.getCreatedAt())
+                .updatedAt(phone.getUpdatedAt())
+                .build();
+
+        assertEquals(expected, phone);
+    }
 }
