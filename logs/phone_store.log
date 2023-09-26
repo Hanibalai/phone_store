@@ -5123,3 +5123,241 @@ ru.sber.phone_store.exception.EntityNotFoundException: Brand with id 3 not found
 2023-09-26 18:12:58 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-09-26 18:12:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2023-09-26 18:12:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-09-26 19:20:05 [main] INFO  r.s.p.PhoneStoreApplication - Starting PhoneStoreApplication using Java 17.0.8 with PID 29167 (/Users/ramazan/IdeaProjects/phone_store/build/classes/java/main started by ramazan in /Users/ramazan/IdeaProjects/phone_store)
+2023-09-26 19:20:05 [main] INFO  r.s.p.PhoneStoreApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-26 19:20:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-26 19:20:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2023-09-26 19:20:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-09-26 19:20:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-26 19:20:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-26 19:20:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-26 19:20:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 473 ms
+2023-09-26 19:20:06 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-09-26 19:20:06 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@152c4495
+2023-09-26 19:20:06 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-09-26 19:20:06 [main] INFO  liquibase.database - Set default schema name to public
+2023-09-26 19:20:06 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-09-26 19:20:06 [main] INFO  liquibase.executor - Changelog query completed.
+2023-09-26 19:20:06 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-26 19:20:06 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 19:20:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-26 19:20:07 [main] INFO  r.s.p.PhoneStoreApplication - Started PhoneStoreApplication in 1.572 seconds (process running for 1.779)
+2023-09-26 19:20:15 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 19:20:15 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-09-26 19:20:15 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-09-26 19:46:34 [main] INFO  r.s.p.PhoneStoreApplication - Starting PhoneStoreApplication using Java 17.0.8 with PID 31124 (/Users/ramazan/IdeaProjects/phone_store/build/classes/java/main started by ramazan in /Users/ramazan/IdeaProjects/phone_store)
+2023-09-26 19:46:34 [main] INFO  r.s.p.PhoneStoreApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-26 19:46:34 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-26 19:46:34 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2023-09-26 19:46:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-09-26 19:46:34 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-26 19:46:34 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-26 19:46:34 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-26 19:46:34 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 491 ms
+2023-09-26 19:46:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-09-26 19:46:35 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68e02f33
+2023-09-26 19:46:35 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-09-26 19:46:35 [main] INFO  liquibase.database - Set default schema name to public
+2023-09-26 19:46:35 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-09-26 19:46:35 [main] INFO  liquibase.executor - Changelog query completed.
+2023-09-26 19:46:35 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-26 19:46:35 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 19:46:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-26 19:46:35 [main] INFO  r.s.p.PhoneStoreApplication - Started PhoneStoreApplication in 1.563 seconds (process running for 1.931)
+2023-09-26 19:47:25 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-26 19:47:25 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-26 19:47:25 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-09-26 19:47:25 [http-nio-8080-exec-1] ERROR r.s.p.handler.GlobalExceptionHandler - Method argument validation exception occurred
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public ru.sber.phone_store.dto.PhoneDto ru.sber.phone_store.controller.PhoneController.save(ru.sber.phone_store.dto.PhoneDto): [Field error in object 'phoneDto' on field 'model': rejected value [null]; codes [NotBlank.phoneDto.model,NotBlank.model,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [phoneDto.model,model]; arguments []; default message [model]]; default message [Model is required]] 
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:144)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-09-26 19:47:36 [http-nio-8080-exec-4] INFO  r.s.p.controller.PhoneController - GET request: Get all phones with filter PhoneFilterDto(brandId=3, minPrice=1000.0, maxPrice=2000.0)
+2023-09-26 19:47:52 [http-nio-8080-exec-5] INFO  r.s.p.controller.PhoneController - GET request: Get all phones
+2023-09-26 19:48:09 [http-nio-8080-exec-6] INFO  r.s.p.controller.PhoneController - GET request: Get all phones with filter PhoneFilterDto(brandId=3, minPrice=1000.0, maxPrice=1200.0)
+2023-09-26 19:48:18 [http-nio-8080-exec-7] INFO  r.s.p.controller.PhoneController - GET request: Get all phones with filter PhoneFilterDto(brandId=3, minPrice=1000.0, maxPrice=1200.0)
+2023-09-26 19:50:03 [http-nio-8080-exec-9] INFO  r.s.p.controller.PhoneController - GET request: Get all phones with filter PhoneFilterDto(brandId=3, minPrice=1000.0, maxPrice=1200.0)
+2023-09-26 19:50:29 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 19:50:29 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-09-26 19:50:29 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-09-26 19:50:30 [main] INFO  r.s.p.PhoneStoreApplication - Starting PhoneStoreApplication using Java 17.0.8 with PID 31404 (/Users/ramazan/IdeaProjects/phone_store/build/classes/java/main started by ramazan in /Users/ramazan/IdeaProjects/phone_store)
+2023-09-26 19:50:30 [main] INFO  r.s.p.PhoneStoreApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-26 19:50:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-26 19:50:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2023-09-26 19:50:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-09-26 19:50:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-26 19:50:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-26 19:50:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-26 19:50:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 514 ms
+2023-09-26 19:50:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-09-26 19:50:31 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@152c4495
+2023-09-26 19:50:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-09-26 19:50:31 [main] INFO  liquibase.database - Set default schema name to public
+2023-09-26 19:50:31 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-09-26 19:50:31 [main] INFO  liquibase.executor - Changelog query completed.
+2023-09-26 19:50:31 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-26 19:50:31 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 19:50:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-26 19:50:32 [main] INFO  r.s.p.PhoneStoreApplication - Started PhoneStoreApplication in 1.542 seconds (process running for 1.913)
+2023-09-26 19:50:36 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-26 19:50:36 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-26 19:50:36 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-09-26 19:50:36 [http-nio-8080-exec-2] INFO  r.s.p.controller.PhoneController - GET request: Get all phones with filter PhoneFilterDto(brandId=3, minPrice=1000.0, maxPrice=1200.0)
+2023-09-26 19:51:28 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 19:51:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-09-26 19:51:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-09-26 19:51:29 [main] INFO  r.s.p.PhoneStoreApplication - Starting PhoneStoreApplication using Java 17.0.8 with PID 31486 (/Users/ramazan/IdeaProjects/phone_store/build/classes/java/main started by ramazan in /Users/ramazan/IdeaProjects/phone_store)
+2023-09-26 19:51:29 [main] INFO  r.s.p.PhoneStoreApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-26 19:51:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-26 19:51:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2023-09-26 19:51:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-09-26 19:51:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-26 19:51:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-26 19:51:30 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-26 19:51:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 482 ms
+2023-09-26 19:51:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-09-26 19:51:30 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@152c4495
+2023-09-26 19:51:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-09-26 19:51:30 [main] INFO  liquibase.database - Set default schema name to public
+2023-09-26 19:51:30 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-09-26 19:51:30 [main] INFO  liquibase.executor - Changelog query completed.
+2023-09-26 19:51:30 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-26 19:51:31 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 19:51:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-26 19:51:31 [main] INFO  r.s.p.PhoneStoreApplication - Started PhoneStoreApplication in 1.513 seconds (process running for 1.734)
+2023-09-26 19:51:34 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-26 19:51:34 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-26 19:51:34 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-09-26 19:51:34 [http-nio-8080-exec-2] INFO  r.s.p.controller.PhoneController - GET request: Get all phones with filter PhoneFilterDto(brandId=3, minPrice=1000.0, maxPrice=1200.0)
+2023-09-26 19:51:49 [http-nio-8080-exec-3] INFO  r.s.p.controller.PhoneController - GET request: Get all phones with filter PhoneFilterDto(brandId=3, minPrice=1000.0, maxPrice=800.0)
+2023-09-26 19:52:25 [http-nio-8080-exec-4] INFO  r.s.p.controller.PhoneController - GET request: Get all phones with filter PhoneFilterDto(brandId=2, minPrice=1000.0, maxPrice=800.0)
+2023-09-26 19:54:48 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 19:54:48 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-09-26 19:54:48 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-09-26 19:54:50 [main] INFO  r.s.p.PhoneStoreApplication - Starting PhoneStoreApplication using Java 17.0.8 with PID 31756 (/Users/ramazan/IdeaProjects/phone_store/build/classes/java/main started by ramazan in /Users/ramazan/IdeaProjects/phone_store)
+2023-09-26 19:54:50 [main] INFO  r.s.p.PhoneStoreApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-26 19:54:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-26 19:54:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2023-09-26 19:54:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-09-26 19:54:50 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-26 19:54:50 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-26 19:54:50 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-26 19:54:50 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 501 ms
+2023-09-26 19:54:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-09-26 19:54:50 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4eaa375c
+2023-09-26 19:54:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-09-26 19:54:51 [main] INFO  liquibase.database - Set default schema name to public
+2023-09-26 19:54:51 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-09-26 19:54:51 [main] INFO  liquibase.executor - Changelog query completed.
+2023-09-26 19:54:51 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-26 19:54:51 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 19:54:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-26 19:54:52 [main] INFO  r.s.p.PhoneStoreApplication - Started PhoneStoreApplication in 2.035 seconds (process running for 2.385)
+2023-09-26 19:54:55 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-26 19:54:55 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-26 19:54:55 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-09-26 19:54:55 [http-nio-8080-exec-1] INFO  r.s.p.controller.PhoneController - GET request: Get all phones with filter PhoneFilterDto(brandId=2, minPrice=1000.0, maxPrice=800.0)
+2023-09-26 19:55:39 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 19:55:39 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-09-26 19:55:39 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-09-26 20:59:02 [main] INFO  r.s.p.PhoneStoreApplication - Starting PhoneStoreApplication using Java 17.0.8 with PID 33074 (/Users/ramazan/IdeaProjects/phone_store/build/classes/java/main started by ramazan in /Users/ramazan/IdeaProjects/phone_store)
+2023-09-26 20:59:02 [main] INFO  r.s.p.PhoneStoreApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-26 20:59:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-26 20:59:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2023-09-26 20:59:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-09-26 20:59:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-26 20:59:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-26 20:59:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-26 20:59:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 472 ms
+2023-09-26 20:59:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-09-26 20:59:02 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7dcb42a9
+2023-09-26 20:59:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-09-26 20:59:02 [main] INFO  liquibase.database - Set default schema name to public
+2023-09-26 20:59:02 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-09-26 20:59:02 [main] INFO  liquibase.executor - Changelog query completed.
+2023-09-26 20:59:03 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-26 20:59:03 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 20:59:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-26 20:59:03 [main] INFO  r.s.p.PhoneStoreApplication - Started PhoneStoreApplication in 1.553 seconds (process running for 1.838)
+2023-09-26 20:59:06 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-26 20:59:06 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-26 20:59:06 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-09-26 20:59:06 [http-nio-8080-exec-1] INFO  r.s.p.controller.PhoneController - POST request: Get all phones with filter PhoneFilterDto(brandId=2, minPrice=1000.0, maxPrice=800.0)
+2023-09-26 20:59:31 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 20:59:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-09-26 20:59:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-09-26 20:59:33 [main] INFO  r.s.p.PhoneStoreApplication - Starting PhoneStoreApplication using Java 17.0.8 with PID 33133 (/Users/ramazan/IdeaProjects/phone_store/build/classes/java/main started by ramazan in /Users/ramazan/IdeaProjects/phone_store)
+2023-09-26 20:59:33 [main] INFO  r.s.p.PhoneStoreApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-26 20:59:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-26 20:59:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2023-09-26 20:59:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-09-26 20:59:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-26 20:59:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-26 20:59:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-26 20:59:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 462 ms
+2023-09-26 20:59:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-09-26 20:59:33 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@80b122b
+2023-09-26 20:59:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-09-26 20:59:33 [main] INFO  liquibase.database - Set default schema name to public
+2023-09-26 20:59:33 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2023-09-26 20:59:33 [main] INFO  liquibase.executor - Changelog query completed.
+2023-09-26 20:59:33 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-26 20:59:34 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 20:59:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-26 20:59:34 [main] INFO  r.s.p.PhoneStoreApplication - Started PhoneStoreApplication in 1.482 seconds (process running for 1.678)
+2023-09-26 20:59:36 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-26 20:59:36 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-26 20:59:36 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-09-26 20:59:36 [http-nio-8080-exec-2] INFO  r.s.p.controller.PhoneController - POST request: Get all phones with filter PhoneFilterDto(brandId=2, minPrice=1000.0, maxPrice=800.0)
+2023-09-26 20:59:43 [http-nio-8080-exec-3] INFO  r.s.p.controller.PhoneController - POST request: Get all phones with filter PhoneFilterDto(brandId=2, minPrice=1000.0, maxPrice=1200.0)
+2023-09-26 20:59:50 [http-nio-8080-exec-4] INFO  r.s.p.controller.PhoneController - POST request: Get all phones with filter PhoneFilterDto(brandId=2, minPrice=1000.0, maxPrice=1300.0)
+2023-09-26 20:59:55 [http-nio-8080-exec-5] INFO  r.s.p.controller.PhoneController - POST request: Get all phones with filter PhoneFilterDto(brandId=1, minPrice=1000.0, maxPrice=1300.0)
+2023-09-26 21:00:00 [http-nio-8080-exec-6] INFO  r.s.p.controller.PhoneController - POST request: Get all phones with filter PhoneFilterDto(brandId=2, minPrice=1000.0, maxPrice=1300.0)
+2023-09-26 21:00:05 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-26 21:00:05 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-09-26 21:00:05 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

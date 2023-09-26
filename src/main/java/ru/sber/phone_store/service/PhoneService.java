@@ -5,14 +5,17 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.sber.phone_store.dto.PhoneDto;
+import ru.sber.phone_store.dto.PhoneFilterDto;
 import ru.sber.phone_store.entity.Brand;
 import ru.sber.phone_store.entity.Phone;
 import ru.sber.phone_store.exception.DataValidationException;
 import ru.sber.phone_store.exception.EntityNotFoundException;
+import ru.sber.phone_store.filter.PhoneFilter;
 import ru.sber.phone_store.mapper.PhoneMapper;
 import ru.sber.phone_store.repository.PhoneRepository;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Простой CRUD сервис для работы с сущностью Phone.
@@ -25,6 +28,7 @@ public class PhoneService {
     private final PhoneRepository phoneRepository;
     private final PhoneMapper phoneMapper;
     private final BrandService brandService;
+    private final List<PhoneFilter> phoneFilters;
 
     /**
      * Получает информацию о телефоне по его ID.
@@ -49,6 +53,28 @@ public class PhoneService {
         return phoneRepository.findAll().stream()
                 .map(phoneMapper::toDto)
                 .toList();
+    }
+
+    /**
+     * Получает список телефонов с учетом фильтра, определенного в объекте {@link PhoneFilterDto}.
+     *
+     * @param filter Объект {@link PhoneFilterDto}, содержащий параметры фильтрации.
+     * @return Список объектов {@link PhoneDto} с информацией о телефонах, соответствующих фильтру.
+     */
+    @Transactional(readOnly = true)
+    public List<PhoneDto> getAllByFilter(PhoneFilterDto filter) {
+        List<PhoneDto> phones = phoneRepository.findAll().stream()
+                .map(phoneMapper::toDto)
+                .collect(Collectors.toList());
+
+        phoneFilters.stream()
+                .filter(phoneFilter -> phoneFilter.isApplicable(filter))
+                .forEach(phoneFilter -> {
+                    System.out.println(phoneFilter);
+                    phoneFilter.apply(phones, filter);
+                });
+
+        return phones;
     }
 
     /**

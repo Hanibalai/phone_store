@@ -1,4 +1,4 @@
-package ru.sber.phone_store.entity;
+package ru.sber.phone_store.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

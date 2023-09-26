@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import ru.sber.phone_store.dto.PhoneDto;
+import ru.sber.phone_store.dto.PhoneFilterDto;
 import ru.sber.phone_store.service.PhoneService;
 
 import java.util.List;
@@ -50,6 +51,18 @@ public class PhoneController {
     public List<PhoneDto> getAll() {
         log.info("GET request: Get all phones");
         return phoneService.getAll();
+    }
+
+    /**
+     * Получает список телефонов с учетом фильтра, переданного в теле запроса.
+     *
+     * @param filter Объект {@link PhoneFilterDto} с параметрами фильтрации телефонов.
+     * @return Список объектов {@link PhoneDto} с информацией о телефонах, соответствующих фильтру.
+     */
+    @PostMapping("/filter")
+    public List<PhoneDto> getAllByFilter(@RequestBody PhoneFilterDto filter) {
+        log.info("POST request: Get all phones with filter {}", filter);
+        return phoneService.getAllByFilter(filter);
     }
 
     /**
