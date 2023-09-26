@@ -69,10 +69,7 @@ public class PhoneService {
 
         phoneFilters.stream()
                 .filter(phoneFilter -> phoneFilter.isApplicable(filter))
-                .forEach(phoneFilter -> {
-                    System.out.println(phoneFilter);
-                    phoneFilter.apply(phones, filter);
-                });
+                .forEach(phoneFilter -> phoneFilter.apply(phones, filter));
 
         return phones;
     }
