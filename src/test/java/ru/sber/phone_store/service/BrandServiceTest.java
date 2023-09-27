@@ -36,7 +36,6 @@ class BrandServiceTest {
     @BeforeEach
     void setUp() {
         brand = Brand.builder().id(1L).build();
-
         brandDto = BrandDto.builder().id(1L).build();
 
         when(brandRepository.findById(1L)).thenReturn(Optional.of(brand));

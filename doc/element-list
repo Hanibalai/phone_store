@@ -1,0 +1,10 @@
+ru.sber.phone_store
+ru.sber.phone_store.controller
+ru.sber.phone_store.dto
+ru.sber.phone_store.entity
+ru.sber.phone_store.exception
+ru.sber.phone_store.filter
+ru.sber.phone_store.handler
+ru.sber.phone_store.mapper
+ru.sber.phone_store.repository
+ru.sber.phone_store.service

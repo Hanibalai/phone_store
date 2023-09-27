@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Простой CRUD сервис для работы с сущностью Phone.
+ * Сервис для управления информацией о телефонах.
  */
 @Service
 @RequiredArgsConstructor

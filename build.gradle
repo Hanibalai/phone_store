@@ -43,3 +43,9 @@ tasks.named('test') {
 tasks.bootJar {
 	archiveFileName.set("service.jar")
 }
+
+task generateJavaDoc(type: Javadoc) {
+	source = sourceSets.main.allJava
+	destinationDir = file("$projectDir/doc")
+	classpath = configurations.compileClasspath
+}

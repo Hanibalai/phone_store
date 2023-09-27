@@ -42,7 +42,7 @@ public class Phone {
     private String color;
 
     @Column(name = "price", nullable = false)
-    private double price;
+    private Double price;
 
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)
